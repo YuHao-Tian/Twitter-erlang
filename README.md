@@ -24,5 +24,14 @@ Implementing a Twitter Clone and a client tester/simulator
   Release -> server:send_tweet_api(Owner)  
   Query -> hashtag & mention ->server:lookup_hashtag_or_mentions(Content)  
   Zipf -> server:zipf(Sender,Owner,Exp)  
+# Performance(intel i7 12th gen, core - 16GB ram))
+  Max users tested - 12,000.    
+    |Users|Tweets|Time Taken(ms)|
+  |---|----|----|
+  |2000|16,873|12073|
+  |6000|77,408|37669|
+  |12000|241,937|98348|
+  
+
   
 
